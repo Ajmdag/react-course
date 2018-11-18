@@ -8,7 +8,6 @@ class Article extends Component {
   render() {
     const { article } = this.props;
     const body = this.state.isOpen && <section>{article.text}</section>;
-    console.log(this.props);
     return (
       <div>
         <h2>
